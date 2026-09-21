@@ -171,7 +171,7 @@ function Header({
           <a href="#/guide">Guide</a>
           <button onClick={() => goHomeToSection("features")}>Topics</button>
           <a href="#/contributing">Contribute</a>
-          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://github.com/Sarthak-Dhiman151/padhLo" target="_blank" rel="noreferrer">GitHub</a>
         </nav>
 
         <div className="VPNavActions">
@@ -187,7 +187,7 @@ function Header({
           >
             <Icon name={theme === "light" ? "moon" : "sun"} size={18} />
           </button>
-          <a className="VPSocialLink desktop" href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub">
+          <a className="VPSocialLink desktop" href="https://github.com/Sarthak-Dhiman151/padhLo" target="_blank" rel="noreferrer" aria-label="GitHub">
             <Icon name="github" size={19} />
           </a>
           <button className="VPNavHamburger" onClick={openMenu} aria-label="Open navigation">
@@ -212,7 +212,7 @@ function MobileMenu({ open, close }: { open: boolean; close: () => void }) {
         <a href="#/guide" onClick={close}><span>Beginner's Guide</span><Icon name="chevron" size={18} /></a>
         <button onClick={() => { close(); goHomeToSection("features"); }}><span>Topics</span><Icon name="chevron" size={18} /></button>
         <a href="#/contributing" onClick={close}><span>Contribute</span><Icon name="chevron" size={18} /></a>
-        <a href="https://github.com/" target="_blank" rel="noreferrer"><span>GitHub</span><Icon name="external" size={17} /></a>
+        <a href="https://github.com/Sarthak-Dhiman151/padhLo" target="_blank" rel="noreferrer"><span>GitHub</span><Icon name="external" size={17} /></a>
       </nav>
     </div>
   );
@@ -454,7 +454,7 @@ function DocsShell({
       <div className="VPDocContainer">
         <article className="vp-doc">
           {children}
-          <a className="vp-edit-link" href="https://github.com/" target="_blank" rel="noreferrer">
+          <a className="vp-edit-link" href="https://github.com/Sarthak-Dhiman151/padhLo" target="_blank" rel="noreferrer">
             <Icon name="edit" size={15} />
             Edit this page
           </a>

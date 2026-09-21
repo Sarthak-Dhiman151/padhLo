@@ -21,7 +21,7 @@ To maintain high standards of academic credibility and safety, we strictly rejec
 ## How to Suggest Changes
 
 ### Option 1: Open a GitHub Issue (Quickest)
-1. Visit our [GitHub Repository](https://github.com/).
+1. Visit our [GitHub Repository](https://github.com/Sarthak-Dhiman151/padhLo).
 2. Navigate to the **Issues** tab and click **New Issue**.
 3. Use the format below:
    ```markdown
