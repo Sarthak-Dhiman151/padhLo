@@ -1,9 +1,4 @@
----
-title: Contributing
-description: Guidelines for suggesting new educational resources, reporting broken links, and contributing to PadhLo on GitHub.
-icon: edit
-keywords: contribute, suggest, GitHub, links, feedback, pull request
----
+# Contributing
 
 ## What We Look For
 
