@@ -1,3 +1,5 @@
+![PadhLo](public/banner.png)
+
 # PadhLo
 
 A curated, open wiki of trusted educational resources for Indian students -- covering entrance exams, school boards, college admissions, research tools, online courses, career prep, and more.
