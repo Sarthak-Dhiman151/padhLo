@@ -19,6 +19,7 @@ We actively welcome contributions that provide lasting, high-utility value to In
 To maintain high standards of academic credibility and safety, we strictly reject:
 
 - Commercial coaching affiliate links or referral tracking codes.
+- Pirated copyrighted material, paid course torrents, or unauthorized book re-uploads.
 - Unverified WhatsApp / Telegram group links or unvetted private channels.
 - Phishing sites, paid job guarantee schemes, or paid exam-paper leak scams.
 - Ad-heavy blog posts that merely scrape and repost official government notices.

@@ -37,4 +37,4 @@ keywords: start, guide, how to use, beginner, search, sidebar, outline, tags, li
 
 ### Project
 
-- [Contributing](#/contribute) - Submit a resource or report a dead link.
+- [Contributing](#/contributing) - Submit a resource or report a dead link.

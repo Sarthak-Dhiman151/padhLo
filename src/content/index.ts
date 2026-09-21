@@ -6,13 +6,13 @@ export { parseListItem, renderInline } from "./markdown";
 
 // Vite loads every markdown file in these folders as raw text at build time,
 // mirroring how a real VitePress site sources each wiki section from its own .md file.
-const topicModules = import.meta.glob("./topics/*.md", {
+const topicModules = import.meta.glob("/docs/topics/*.md", {
   eager: true,
   query: "?raw",
   import: "default",
 }) as Record<string, string>;
 
-const pageModules = import.meta.glob("./pages/*.md", {
+const pageModules = import.meta.glob("/docs/pages/*.md", {
   eager: true,
   query: "?raw",
   import: "default",
@@ -31,10 +31,10 @@ const topicOrder = [
   "miscellaneous",
 ];
 
-const pageOrder = ["guide", "contribute"];
+const pageOrder = ["guide", "contributing"];
 
 function slugFromPath(path: string): string {
-  return path.split("/").pop()!.replace(/\.md$/, "");
+  return path.split("/").pop()!.replace(/\.md$/, "").toLowerCase();
 }
 
 export const topics: Topic[] = Object.entries(topicModules)

@@ -64,7 +64,7 @@ const sidebarGroups = [
       "miscellaneous",
     ],
   },
-  { label: "Project", links: ["contribute"] },
+  { label: "Project", links: ["contributing"] },
 ];
 
 function Icon({ name, size = 20 }: { name: IconName; size?: number }) {
@@ -170,7 +170,7 @@ function Header({
         <nav className="VPNavLinks" aria-label="Main navigation">
           <a href="#/guide">Guide</a>
           <button onClick={() => goHomeToSection("features")}>Topics</button>
-          <a href="#/contribute">Contribute</a>
+          <a href="#/contributing">Contribute</a>
           <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
         </nav>
 
@@ -211,7 +211,7 @@ function MobileMenu({ open, close }: { open: boolean; close: () => void }) {
         </div>
         <a href="#/guide" onClick={close}><span>Beginner's Guide</span><Icon name="chevron" size={18} /></a>
         <button onClick={() => { close(); goHomeToSection("features"); }}><span>Topics</span><Icon name="chevron" size={18} /></button>
-        <a href="#/contribute" onClick={close}><span>Contribute</span><Icon name="chevron" size={18} /></a>
+        <a href="#/contributing" onClick={close}><span>Contribute</span><Icon name="chevron" size={18} /></a>
         <a href="https://github.com/" target="_blank" rel="noreferrer"><span>GitHub</span><Icon name="external" size={17} /></a>
       </nav>
     </div>
@@ -301,7 +301,7 @@ function HomePage({ navigate, openSearch }: { navigate: (route: string) => void;
           <div className="VPActionButtons">
             <button className="VPButton brand" onClick={() => navigate("/guide")}>Get Started</button>
             <button className="VPButton alt" onClick={openSearch}>Search</button>
-            <a className="VPButton alt" href="#/contribute">Contribute</a>
+            <a className="VPButton alt" href="#/contributing">Contribute</a>
           </div>
         </div>
         <div className="VPHeroImage">
@@ -342,7 +342,7 @@ function Sidebar({ active, close }: { active: string | null; close?: () => void 
         <div className="VPSidebarGroup" key={group.label}>
           <p>{group.label}</p>
           {group.links.map((slug) => {
-            const route = slug === "guide" || slug === "contribute" ? `/${slug}` : `/topic/${slug}`;
+            const route = slug === "guide" || slug === "contributing" ? `/${slug}` : `/topic/${slug}`;
             return (
               <a
                 key={slug}

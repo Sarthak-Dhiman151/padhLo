@@ -11,15 +11,16 @@ A curated, open wiki of trusted educational resources for Indian students -- cov
 
 ## How It Works
 
-PadhLo is a single-page React application. All content is authored in Markdown files under `src/content/` and compiled at build time via Vite. There is no backend or database.
+PadhLo is a single-page React application. All content is authored in Markdown files under `docs/` at the project root and compiled at build time via Vite. There is no backend or database.
 
 ```
+docs/
+  topics/       # One .md file per wiki section (entrance-exams, school-resources, ...)
+  pages/        # Static pages (guide, CONTRIBUTING)
 src/
-  content/
-    topics/       # One .md file per wiki section (entrance-exams, school-resources, ...)
-    pages/        # Static pages (guide, contribute)
-  App.tsx         # Router, layout, search, rendering
-  index.css       # Full design system
+  content/      # Markdown loader (index.ts, markdown.tsx, types.ts)
+  App.tsx       # Router, layout, search, rendering
+  index.css     # Full design system
 ```
 
 Each Markdown file has YAML frontmatter (`title`, `tagline`, `icon`, `keywords`) followed by standard Markdown with headings, lists, and callout blocks.
@@ -27,7 +28,7 @@ Each Markdown file has YAML frontmatter (`title`, `tagline`, `icon`, `keywords`)
 
 ## Contributing
 
-Contributions are welcome. Read the full [Contributing guidelines](src/content/pages/contribute.md) on the site.
+Contributions are welcome. Read the full [Contributing guidelines](docs/pages/CONTRIBUTING.md) on the site.
 
 **Quick summary:**
 
